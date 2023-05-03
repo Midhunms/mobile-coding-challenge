@@ -9,5 +9,5 @@
     <color name="trans_black">#2C3531</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FA0000</color>
-    <color name="purple_brown">#231f20</color>
+    <color name="text_fav_color">#ff004e</color>
 </resources>

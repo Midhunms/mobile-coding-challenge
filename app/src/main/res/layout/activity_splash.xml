@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="audiobooks.codingchallenge.ui.activity.SplashActivity">
 
@@ -10,12 +9,32 @@
         android:background="@android:color/white">
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appNameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:textSize="22sp"
             android:textColor="@color/app_color"
             android:text="@string/coding_challenge" />
+        <ProgressBar
+            android:id="@+id/pbLoading"
+            android:layout_below="@+id/appNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:indeterminateTint="@color/app_color"
+            android:visibility="visible" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/errorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:paddingVertical="20dp"
+            android:textColor="@color/app_color"/>
     </RelativeLayout>
 
 </layout>

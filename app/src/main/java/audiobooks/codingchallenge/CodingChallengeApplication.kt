@@ -2,6 +2,7 @@ package audiobooks.codingchallenge
 
 import android.app.Application
 import android.content.Context
+import com.facebook.drawee.backends.pipeline.Fresco
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
@@ -14,9 +15,6 @@ class CodingChallengeApplication: Application() {
     companion object {
         private var instance: CodingChallengeApplication? = null
 
-        fun applicationContext() : Context? {
-            return instance?.applicationContext
-        }
     }
 
     override fun attachBaseContext(base: Context) {
@@ -26,7 +24,8 @@ class CodingChallengeApplication: Application() {
 
     override fun onCreate() {
         super.onCreate()
-
+        /*Fresco is used for loading network image*/
+        Fresco.initialize(this)
     }
 
 }

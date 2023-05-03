@@ -2,4 +2,7 @@
     <string name="app_name">Coding Challenge</string>
     <string name="coding_challenge">Coding Challenge</string>
     <string name="back">Back</string>
+    <string name="error_message">Something went wrong.</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
 </resources>
