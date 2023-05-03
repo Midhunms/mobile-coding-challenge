@@ -1,4 +1,4 @@
-package comaudiobooks.codingchallenge
+package audiobooks.codingchallenge
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

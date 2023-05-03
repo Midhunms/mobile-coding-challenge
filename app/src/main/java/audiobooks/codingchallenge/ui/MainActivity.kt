@@ -1,7 +1,8 @@
-package comaudiobooks.codingchallenge
+package audiobooks.codingchallenge.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.audiobooks.codingchallenge.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
