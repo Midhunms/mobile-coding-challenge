@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Coding Challenge</string>
     <string name="coding_challenge">Coding Challenge</string>
+    <string name="back">Back</string>
 </resources>

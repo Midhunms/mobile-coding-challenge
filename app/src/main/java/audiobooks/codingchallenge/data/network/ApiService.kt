@@ -37,7 +37,7 @@ public interface ApiService {
 
             return Retrofit.Builder()
                 .client(okHttpClient)
-                .baseUrl("https://listen-api-test.listennotes.com/api/v2")
+                .baseUrl("https://listen-api-test.listennotes.com/api/v2/")
                 .addCallAdapterFactory(CoroutineCallAdapter())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
